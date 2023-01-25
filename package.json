@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "ace-builds": "^1.15.0",
+    "three": "^0.148.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "name": "smblueprint",
+  "description": "e",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run webpack; node scripts/build.js",
+    "webpack": "MODE='production' npx webpack",
+    "dev": "MODE='development' npx webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAProductions/smBlueprint.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CAProductions/smBlueprint/issues"
+  },
+  "homepage": "https://github.com/CAProductions/smBlueprint#readme"
+}
