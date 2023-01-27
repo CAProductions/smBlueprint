@@ -13,9 +13,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "npm run webpack; node scripts/build.js",
-    "webpack": "MODE='production' npx webpack",
-    "dev": "MODE='development' npx webpack --watch"
+    "build": "MODE='production' webpack",
+    "dev": "MODE='development' webpack --watch"
   },
   "repository": {
     "type": "git",
