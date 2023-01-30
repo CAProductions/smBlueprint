@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "ace-builds": "^1.15.0",
+    "beautify": "^0.0.8",
     "super-simple-popup": "^1.0.2",
     "three": "^0.148.0"
   },
